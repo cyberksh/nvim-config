@@ -53,6 +53,10 @@ lspconfig.perlnavigator.setup({
   filetypes = {'perl'},
 })
 
+lspconfig.rome.setup{}
+
+lspconfig.clangd.setup{}
+
 -- local util = require 'lspconfig/util'
 
 -- lspconfig.rust_analyzer.setup({

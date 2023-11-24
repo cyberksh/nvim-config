@@ -3,6 +3,11 @@ local plugins = {
     'williamboman/mason.nvim',
     opts = {
       ensure_installed = {
+        -- ts/js dependencies
+        'rome',
+        'eslint_d',
+        'prettier',
+
         -- rust dependencies
         'rust-analyzer',
 
@@ -14,6 +19,10 @@ local plugins = {
         'black',
         'debugpy',
         'perlnavigator',
+
+        -- c dependencies
+        'clangd',
+        'clang-format'
       },
     },
   },
